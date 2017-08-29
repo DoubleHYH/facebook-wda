@@ -111,4 +111,5 @@ if __name__ == '__main__':
     # print s(className = "Button").count
 
 
-    print s(text= u"店铺照片").displayed
+    x = s(text= u"接单")
+    print len(x)
